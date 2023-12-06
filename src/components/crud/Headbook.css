@@ -1,0 +1,88 @@
+.headbook-router {
+    margin: 0 auto;
+    width: 600px;
+    min-height: 200px;
+    background-color: #e8eaed;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 black;
+    overflow: hidden;
+}
+
+.headbook-header {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    background-color: #4469ae;
+}
+
+.button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #4469ae;
+    border-radius: 5px;
+}
+
+.button:hover { 
+    color: #ffffff;
+}
+
+.button__delete {
+    margin-left: 10px;
+    background-color: #db0000;
+}
+
+.panel {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.post-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.post-title {
+    position: relative;
+    font-weight: bold;
+    color: #4469ae;
+}
+
+.post-content {
+    font-size: 20px;
+}
+
+.post-area {
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #e8eaed;
+    resize: none;
+    overflow : auto;
+}
+
+.post-area:focus {    
+    outline: 1px solid #4469ae;
+}
+
+.icon-button {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #d0d2d4;
+    font-size: 20px;
+}
